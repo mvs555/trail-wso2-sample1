@@ -63,12 +63,18 @@
     <profile>
       <id>Kubernetes</id>
       <build />
+      <modules>
+        <module>sample1-k8s</module>
+      </modules>
     </profile>
     <profile>
       <activation>
         <activeByDefault>true</activeByDefault>
       </activation>
       <build />
+      <modules>
+        <module>sample1-k8s</module>
+      </modules>
     </profile>
   </profiles>
 </project>
